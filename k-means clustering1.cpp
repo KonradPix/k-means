@@ -24,7 +24,7 @@ void input_points(int n)
         }
         else
         {
-            std::cout << "Invalid coordinates! Please enter again:" << std::endl;
+            cout << "Invalid coordinates! Please enter again:" << endl;
             i--;
         }
     }
@@ -48,7 +48,7 @@ void input_clusters(int n)
         }
         else
         {
-            std::cout << "Invalid coordinates! Please enter again:" << std::endl;
+            cout << "Invalid coordinates! Please enter again:" << endl;
             i--;
         }
     }
